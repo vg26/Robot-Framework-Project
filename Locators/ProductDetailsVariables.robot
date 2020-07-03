@@ -1,0 +1,22 @@
+*** Variables ***
+${asus_n55}       //div[6]/div[3]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div[1]/a/img
+${leica_camera}    //div[6]/div[3]/div[2]/div[2]/div/div[2]/div[3]/div/div[3]/div/div[1]/a/img
+${add_review_for_product}    //*[@id="product-details-form"]/div/div[1]/div[2]/div[3]/div[2]/a[2]
+${review_title}    id:AddProductReview_Title
+${review_text}    id:AddProductReview_ReviewText
+${vote_on_review}    id:vote-yes-4105
+${vote_review_msg}    id:helpfulness-vote-result-4105
+${pride_prejaduce_product}    //div[6]/div[3]/div[2]/div[2]/div/div[2]/div[3]/div/div[3]/div/div[1]/a/img
+${email_to_friend_button}    //*[@id="product-details-form"]/div/div[1]/div[2]/div[8]/div[3]
+${friends_email_field}    id:FriendEmail
+${your_emaill_address_field}    id:YourEmailAddress
+${personal_msg_field}    id:PersonalMessage
+${send_email_button}    //div[6]/div[3]/div/div/div/div[2]/form/div[2]/input
+${desktop_category}    //div[6]/div[3]/div[2]/div[2]/div/div[2]/div[1]/div/div[1]/div/div/a/img
+${build_your_computer}    //div[6]/div[3]/div[2]/div[2]/div/div[2]/div[3]/div/div[1]/div/div[1]/a/img
+${select_processor}    id:product_attribute_1
+${select_ram}     id:product_attribute_2
+${select_hdd}     id:product_attribute_3_6
+${add_product_to_cart}    id:add-to-cart-button-1
+${share_to_fb_button}    //*[@id="product-details-form"]/div/div[1]/div[2]/div[9]/div/a[1]
+${submit_review_button}    //*[@id="review-form"]/form/div[2]/input
